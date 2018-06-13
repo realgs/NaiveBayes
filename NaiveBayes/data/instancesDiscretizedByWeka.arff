@@ -1,0 +1,23 @@
+@relation weather-weka.filters.supervised.attribute.Discretize-Rfirst-last
+
+@attribute outlook {sunny,overcast,rainy}
+@attribute temperature {'\'All\''}
+@attribute humidity {'\'All\''}
+@attribute windy {TRUE,FALSE}
+@attribute play {yes,no}
+
+@data
+sunny,'\'All\'','\'All\'',FALSE,no
+sunny,'\'All\'','\'All\'',TRUE,no
+overcast,'\'All\'','\'All\'',FALSE,yes
+rainy,'\'All\'','\'All\'',FALSE,yes
+rainy,'\'All\'','\'All\'',FALSE,yes
+rainy,'\'All\'','\'All\'',TRUE,no
+overcast,'\'All\'','\'All\'',TRUE,yes
+sunny,'\'All\'','\'All\'',FALSE,no
+sunny,'\'All\'','\'All\'',FALSE,yes
+rainy,'\'All\'','\'All\'',FALSE,yes
+sunny,'\'All\'','\'All\'',TRUE,yes
+overcast,'\'All\'','\'All\'',TRUE,yes
+overcast,'\'All\'','\'All\'',FALSE,yes
+rainy,'\'All\'','\'All\'',TRUE,no
